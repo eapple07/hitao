@@ -1,0 +1,36 @@
+
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul, dl, dt, dd { margin: 0px; padding: 0px; }
+body, button, input, select, textarea { font: 12px/1.5 "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",微软雅黑,tahoma,simsun,宋体; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+ol, ul { list-style: outside none none; }
+a { text-decoration: none; }
+a:hover{text-decoration: underline; color: rgb(225, 4, 130);}
+fieldset, img { border: 0px none; }
+button, input, select, textarea { font-size: 100%; background: transparent none repeat scroll 0% 0%; outline: none;border:none;}
+.clearfix::after { content: " "; display: block; height: 0px; clear: both; }
+.clearfix {  }
+body { background: rgb(255, 255, 255) ;font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",微软雅黑,tahoma,simsun,宋体;min-width: 1190px;}
+.livebox { width: 85px; height: 25px; display: block; text-align: center; margin: 0px; padding: 0px 0px 10px; }
+.livebox a { width: 85px; height: 25px; margin: 0px; text-align: left; display: inline-block; background: transparent url('../images/base/livebox.png') no-repeat scroll -232px -198px; }
+@font-face {
+  font-family: "fonten";  font-style: normal;  font-weight: normal;  src: url('../data/font/museosans_500.eot') format("embedded-opentype"), url('../data/font/museosans_500.woff') format("woff"), url('../data/font/museosans_500.ttf') format("truetype"), url('../data/font/museosans_500.svg') format("svg");}
+body, button, input, select, textarea {
+    -x-system-font: none;
+    font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB",微软雅黑,tahoma,simsun,宋体;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: 12px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-weight: normal;
+    line-height: 1.5;
+}

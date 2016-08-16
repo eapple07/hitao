@@ -1,0 +1,194 @@
+#header{
+	background-color: rgba(0, 0, 0, 0);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-image: url('../images/reg/bg_head2.jpg');
+    height: 127px;
+    padding-top:17px
+}
+#main{
+	background:#fff;
+	padding-bottom: 20px;
+}
+#main .mtop{
+padding:20px 0;
+background:#f5f5f5;
+}
+#main .maintop{
+	width: 999px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+.mtleft{
+	float: left;
+}
+.mtleft a{
+	display: block;
+	float: left;
+	width: 161px;
+	height: 45px;
+	background:url('../images/reg/login.png');
+	background-position:-205px  0;
+}
+.mtleft span{
+	display: inline-block;
+	padding-top:5px;
+	padding-left: 15px;
+}
+.mtright{
+	float: right;
+}
+.mtright a{
+	width: 70px;
+	height: 28px;
+	display: inline-block;
+	border:1px solid #e10482;
+	color: #e10482;
+	border-radius:20px;
+	background:#fff;
+	text-align: center;
+	line-height:28px;
+	text-decoration: none;
+	font-size:14px;
+	margin-left:10px;
+}
+.mtright a:hover{
+	color: #fff;
+	background:#e10482;
+}
+.mbottom{
+	margin: 0 auto;
+	background:#fff;
+	width: 990px;
+	padding-top: 50px;
+	padding-bottom: 200px;
+}
+.mbleft{
+	float: left;
+}
+.mbright{
+	width: 368px;
+	float: right;
+	position: relative;
+}
+.regone{
+	width: 340px;
+	height: 324px;
+	margin-left:15px;
+}
+.control{
+	width: 336px;
+	border: 2px solid #ccc;
+	margin-top: 30px;
+	border-radius: 4px;
+	position: relative;
+}
+.clarge{
+	width: 228px;
+	height: 46px;
+	line-height: 46px;
+	border:none;
+	margin-left: 10px;
+	color: #bbb;
+	font-family: Microsoft YaHei;
+}
+.judge{
+	position: absolute;
+	display: inline-block;
+	left: 0;
+	top: 45px;
+	white-space: normal;
+	height: 30px;
+	line-height: 30px;
+	color: #e10482;
+	font-size: 12px;
+	display: none;
+	
+}
+
+.opp{
+	position: absolute;
+	width: 105px;
+	height: 32px;
+	right: 5px;
+	top: 8px;
+	text-align: center;
+	line-height: 32px;
+	color: #e10482;
+	cursor: pointer;
+}
+.judge .ferror{
+	position: relative;
+	top: 4px;
+}
+.judge em{
+	margin-left: 4px;
+}
+.clabel{
+	border-top-left-radius:4px;
+	border-bottom-left-radius: 4px;
+	width: 78px;
+	line-height: 46px;
+	background: #f5f5f5;
+	text-align: center;
+	float: left;
+	border-right: 1px solid #ccc;
+	color: #666;
+}
+.regtwo{
+	display: none;
+	width: 340px;
+	height: 324px;
+	margin-left:15px;
+}
+.nextp{
+	width: 336px;
+	margin-top: 50px;
+	position: relative;
+	border-radius: 4px;
+}
+.nextp span{
+	display: inline-block;
+	background:#ccc;
+	border-radius: 32px;
+	width: 48px;
+	height: 40px;
+	padding: 0 30px;
+	cursor:not-allowed;
+	line-height: 40px;
+	font-size: 16px;
+	text-align: center;
+	margin-left: 78px;
+}
+.regtwo .bom{
+	border-top: 1px solid #ccc;
+}
+#main .regtwo .passwordj{
+	left: 0;
+	top: 95px;
+}
+.opu{
+		margin-top:0;
+}
+.opu span{
+	width: 90px;
+	margin-left:94px;
+	background:#e10482;
+}
+.agree{
+	padding: 25px 0 35px;
+	color: #666;
+}
+.agree input{
+	display: inline-block;
+	vertical-align: -2px;
+	outline: none;
+}
+label{
+	cursor: default;
+}
+.agree a{
+	color: #3b99fd;
+	text-decoration: none;
+}

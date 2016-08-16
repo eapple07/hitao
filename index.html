@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="嗨淘全球，由阿里巴巴和湖南卫视旗下快乐淘宝文化传播有限公司打造，定位于18~35岁女性用户的跨境进口电商平台，涵盖美妆母婴两个品类的丰富商品，为女性提供优质生活全方位解决方案。《越淘越开心》数十位潮人助阵。世界商店hi 我来了!美妆尖货低至62元,母婴低至42元!">
+    <meta name="keyword" content="嗨淘全球,海购,跨境购,代购,进口,跨境电商,海外直邮,化妆品,母婴,奶粉,特卖,免税店,韩流,欧美">
+    <title>嗨淘全球-海淘正品，就认嗨淘全球，阿里巴巴和湖南卫视旗下跨境电商平台</title>
+    <link rel="icon" href="favicon.ico" type="image/ico">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src='js/jquery-1.11.3.js'></script>
+</head>
+<body>
+    <!-- 头部通知 -->
+    <div id="top_ad" class="topad"></div>
+    <!-- 头部公共 -->
+    <div id="header">
+        <div class="h_top wrap clearfix">
+            <div class="site_nav">
+                <div class="quick_menu clearfix">
+                    <a href="http://hitao.top/mycenter" target="_self">我的订单</a>
+                    <span class="line">|</span>
+                    <a href="http://hitao.top/mycenter/couponList" target="_self">我的优惠券</a>
+                    <span class="line">|</span>
+                    <a href="http://hitao.top/mycenter/praisedList" target="_self">我的收藏</a>
+                    <span class="line">|</span>
+                    <a href="http://help.hitao.top/help-shopping" target="_blank">帮助中心</a>
+                </div>
+                <div class="u-info">
+                    <span id="quick_menu"><a href="login.html" target="_self" id='ologin'>登录</a><a href="reg.html" target="_self">免费注册</a></span>
+                    <a href="http://alimarket.hitao.com/markets/hitao/pdown" target="_self"><img src="images/header/phone.png" alt="手机版" class='h_phone'>手机版</a>
+                </div>
+            </div>
+        </div>
+        <div class="h_middle wrap clearfix">
+            <div class="site_logo">
+                <div class="h_logo">
+                    <h1 class="logo"><a href="http://www.hitao.com">嗨淘网</a></h1>
+                </div>
+                <div class="h_font"></div>
+                <div class="h_search">
+                    <div class="h_search_top">
+                        <img src="images/header/fdj.png" alt="">
+                        <form action="">
+                            <input type="text" class="seachtxt" placeholder="搜索商品">
+                            <input type="button" class="searchbtn" value="搜索">
+                        </form>
+                    </div>
+                    <div class="h_search_bottom">
+                        <div class="h_Keywords"><span data-content="面霜"><a href="javascript:;">面霜</a></span><span data-content="面膜">&nbsp;|&nbsp;<a href="javascript:;">面膜</a></span><span data-content="洁面">&nbsp;|&nbsp;<a href="javascript:;">洁面</a></span><span data-content="奶粉">&nbsp;|&nbsp;<a href="javascript:;">奶粉</a></span><span data-content="纸尿裤">&nbsp;|&nbsp;<a href="javascript:;">纸尿裤</a></span><span data-content="辅食">&nbsp;|&nbsp;<a href="javascript:;">辅食</a></span><span data-content="宝宝营养">&nbsp;|&nbsp;<a href="javascript:;">宝宝营养</a></span><span data-content="唇部彩妆">&nbsp;|&nbsp;<a href="javascript:;">唇部彩妆</a></span><span data-content="身体护理">&nbsp;|&nbsp;<a href="javascript:;">身体护理</a></span><span data-content="香氛">&nbsp;|&nbsp;<a href="javascript:;">香氛</a></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 头部导航 -->
+    <div id="nav">
+        <div class="h_nav wrap clearfix">
+            <div class="nav_bar clearfix">
+                <ul class="nav_entry clearfix">
+                    <li><a href="javascript:;">首页</a></li>
+                    <li><a href="javascript:;">全球特卖</a></li>
+                </ul>
+                <div class="h_inner clearfix">
+                    <div class="nav_classify">
+                        <img src="images/header/clssify.png" alt="">
+                        <span>查看分类</span>
+                    </div>
+                    <div id='classify'>
+                        <ul class="sift_l">
+                        </ul>
+                        <ul class="sift_r clearfix">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner -->
+    <div id="banner">
+        <div class="bannerbox wrap clearfix">
+            <div class="banner_lbt">
+                <ul class='box'>
+                </ul>
+                <div id="banner_prev"></div>
+                <div id="banner_next"></div>
+                <ul class='dot clearfix'>
+                </ul>
+            </div>
+        </div>
+        <div class="bannerad wrap clearfix">
+            <ul class="b_ad clearfix">
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/main/op1.png" alt="bannerad">
+                        <strong>官方授权</strong>
+                        <p>Official authorization</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/main/op2.png" alt="bannerad">
+                        <strong>海关监管</strong>
+                        <p>Customs Supervision</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/main/op3.png" alt="bannerad">
+                        <strong>满额包邮</strong>
+                        <p>Quota Fulfillment Mail</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <img src="images/main/op4.png" alt="bannerad">
+                        <strong>售后无忧</strong>
+                        <p>Assured After-sale Service</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 主要内容 -->
+    <div id="main">
+        <div class="m_jx wrap clearfix">
+            <a href="javascript:;" class="imgup"><img src="images/main/jx1.png" alt="精选"></a>
+            <a href="javascript:;" class="imgup"><img src="images/main/jx2.png" alt="精选"></a>
+            <a href="javascript:;" class="imgup"><img src="images/main/jx3.png" alt="精选"></a>
+            <a href="javascript:;" class="imgup"><img src="images/main/jx4.png" alt="精选"></a>
+        </div>
+        <div class="m_htjx wrap clearfx">
+            <h2><img src="images/main/jx0.png" height="33" width="559" alt="嗨淘精选标题"></h2>
+        </div>
+        <div class="mjx clearfix">
+            <div class="mjx_left">
+                <a href="javascript:;"><img src="images/main/hj01.png" height="520" width="330" alt="jx"></a>
+            </div>
+            <div class="mjx_right">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;"><img src="images/main/hj02.jpg" alt="jx"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="images/main/hj03.jpg" alt="jx"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="images/main/hj04.jpg" alt="jx"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="images/main/hj05.jpg" alt="jx"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="images/main/hj06.jpg" alt="jx"></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;"><img src="images/main/hj07.jpg" alt="jx"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_htdp wrap clearfx">
+            <h2><img src="images/main/dp.png" height="33" width="559" alt="嗨淘大牌标题"></h2>
+        </div>
+        <div class="mdp clearfix wrap">
+            <div class="mdp_left">
+                <a href="javascript:;">
+                    <div class="dpop"></div><img src="images/main/dp1.jpg" alt="dp"></a>
+            </div>
+            <div class="mdp_right">
+                <ul>
+                    <li class="mdpli">
+                        <a href="javascript:;">
+                            <div class="dpop"></div><img src="images/main/dp2.jpg" alt=""></a>
+                    </li>
+                    <li class="mdpli">
+                        <a href="javascript:;">
+                            <div class="dpop"></div><img src="images/main/dp3.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div class="dpop"></div><img src="images/main/dp4.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <div class="dpop"></div><img src="images/main/dp5.jpg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="m_over wrap clearfix">
+            <div class="mo_left">
+                <div class="m_qqtm">
+                    <h3 class="mt_qqtm clearfix">
+                        <img src="images/main/bt_qqtm.png" alt="全球特卖">
+                        <a href="javascript:;">查看更多 &gt;</a>
+                    </h3>
+                    <ul class="qqtm_shoplist">
+                    </ul>
+                </div>
+            </div>
+            <div class="mo_right">
+                <div class="bt_line">
+                    <div class="mr_bt">热销品牌</div>
+                </div>
+                <ul class="rxpp clearfix">
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp01.jpg" alt="品牌">
+                            <div class="mrx_dec">Lancome/兰蔻</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp02.jpg" alt="品牌">
+                            <div class="mrx_dec">倩碧</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp03.jpg" alt="品牌">
+                            <div class="mrx_dec">Origins/悦木之源</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp04.jpg" alt="品牌">
+                            <div class="mrx_dec">箭牌</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp05.jpg" alt="品牌">
+                            <div class="mrx_dec">施华蔻</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp06.jpg" alt="品牌">
+                            <div class="mrx_dec">za</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp07.jpg" alt="品牌">
+                            <div class="mrx_dec">innisfree/悦诗风吟</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp08.jpg" alt="品牌">
+                            <div class="mrx_dec">梦妆</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp09.jpg" alt="品牌">
+                            <div class="mrx_dec">Dr.g</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp10.jpg" alt="品牌">
+                            <div class="mrx_dec">Aveeno/艾维诺</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp11.jpg" alt="品牌">
+                            <div class="mrx_dec">新安怡</div>
+                        </a>
+                    </li>
+                    <li class="mr_rx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/pp12.jpg" alt="品牌">
+                            <div class="mrx_dec">boon</div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="bt_line obl_1">
+                    <div class="mr_bt">精选专题</div>
+                </div>
+                <ul class="jxzt clearfix">
+                    <li class="mr_jx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/zt01.jpg" alt="精选专题">
+                        </a>
+                    </li>
+                    <li class="mr_jx_list">
+                        <a href="javascript:;">
+                            <img src="images/main/zt02.png" alt="精选专题">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 底部公共 -->
+    <div id="footer">
+        <div class="footer_link wrap">
+            <div class="wlink">
+                <ul class="f_links clearfix">
+                    <li class="f_li">
+                        <dl class="f_dl">
+                            <dd class="f_dd">新手指南</dd>
+                            <dt class="f_dt"><a href="javascript:;">购物流程</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">购物须知</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">联系客服</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">常见问题</a></dt>
+                        </dl>
+                    </li>
+                    <li class="f_li">
+                        <dl class="f_dl">
+                            <dd class="f_dd">支付方式</dd>
+                            <dt class="f_dt"><a href="javascript:;">第三方支付平台</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">优惠券使用</a></dt>
+                        </dl>
+                    </li>
+                    <li class="f_li">
+                        <dl class="f_dl">
+                            <dd class="f_dd">售后服务</dd>
+                            <dt class="f_dt"><a href="javascript:;">退货政策</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">退货流程</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">退款说明</a></dt>
+                        </dl>
+                    </li>
+                    <li class="f_li">
+                        <dl class="f_dl">
+                            <dd class="f_dd">商品配送</dd>
+                            <dt class="f_dt"><a href="javascript:;">运费说明</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">配送范围</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">发货说明</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">物流查询</a></dt>
+                        </dl>
+                    </li>
+                    <li class="f_li">
+                        <dl class="f_dl">
+                            <dd class="f_dd">品牌保证</dd>
+                            <dt class="f_dt"><a href="javascript:;">官方授权</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">海关监管</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">免税包邮</a></dt>
+                            <dt class="f_dt"><a href="javascript:;">售后无忧</a></dt>
+                        </dl>
+                    </li>
+                    <li class="f_li f_li_last">
+                        <dl class="f_dl">
+                            <dd class="f_dd f_dd_last">手机淘宝全球</dd>
+                            <dt class="f_dt_img"><img src="images/footer/footerewm.png" alt="二维码"></dt>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer_contact wrap">
+            <div class="wcontact">
+                <div class="fc_phone">
+                    <img src="images/footer/phoneicon.png" alt="联系电话">
+                    <span>4008-006-006</span>
+                </div>
+                <div class="fc_link">
+                    <a href="javascript:;" target="_blank">公司简介</a>
+                    <a href="javascript:;" target="_blank">联系我们</a>
+                    <a href="javascript:;" target="_blank">大事记</a>
+                    <a href="javascript:;" target="_blank">人才招聘</a>
+                    <a href="javascript:;" target="_blank">帮助中心</a>
+                    <a href="javascript:;" target="_blank">法律声明</a>
+                    <a href="javascript:;" target="_blank">合作专区</a>
+                    <a href="javascript:;" target="_blank">友情链接</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer_license wrap">
+            <div class="wlicense">
+                <p>Copyright © 2010 - 2016, 版权所有 HITAO.TOP 湘ICP备10012668号-3 嗨淘全球网　|<a href="http://img.alicdn.com/tps/i2/T1nQ43FrNkXXX92q3v-1286-900.jpg">营业执照</a></p>
+                <div class="fl_license">
+                    <a href="javascript:;" class="f_la f_la_first"><img src="images/footer/f1.png" height="34" width="100" alt=""></a>
+                    <a href="javascript:;" class="f_la"><img src="images/footer/f2.png" height="34" width="105" alt=""></a>
+                    <a href="javascript:;" class="f_la"><img src="images/footer/f3.png" height="34" width="85" alt=""></a>
+                    <div class="f_la"><img src="images/footer/f4.png" height="34" width="125" alt=""></div>
+                    <div class="f_la f_la_last"><img src="images/footer/f5.png" height="34" width="90" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 用户中心公共 -->
+    <div id="usercenter">
+        <ul class="user_top">
+            <li>
+                <a href="javascript:;" title="用户中心" target="_blank" class='ut_a1 ut_a oyp'></a>
+                <div class="custom uc_none">
+                    <div class="lxkf"></div>
+                    <div class="kftime">
+                        <span>时间:9:00-24:00</span>
+                        <br />
+                        <span>热线:4008-006-006</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:;" title="用户中心" target="_blank" class='ut_a2 ut_a'></a>
+                <span class='buy_num'>0</span>
+            </li>
+            <li>
+                <a href="javascript:;" title="用户中心" target="_blank" class='ut_a3 ut_a oyp'></a>
+                <span class="uc_collection uc_none">我的收藏</span>
+            </li>
+            <li>
+                <a href="javascript:;" title="用户中心" target="_blank" class='ut_a4 ut_a oyp'></a>
+                <span class='uc_coupon uc_none'>我的优惠券</span>
+            </li>
+        </ul>
+        <ul class="userbottom">
+            <li>
+                <a href="javascript:;" class="user_code oyp" title="二维码" target="_self"></a>
+                <div class="uc_ewm uc_none">
+                    <img src="images/main/ewm.png" height="93" width="93" alt="二维码">
+                    <span>手机注册有礼</span>
+                </div>
+            </li>
+            <li>
+                <a href="javascript:;" class="user_uptop" title="uptop" target="_self"></a>
+            </li>
+        </ul>
+    </div>
+    <script src='js/common.js'></script>
+    <script src='js/main.js'></script>
+</body>
+</html>
